@@ -1,8 +1,11 @@
 <script setup>
+import Head from "./components/Head.vue";
 </script>
 
 <template>
-  <h1 class="text-2xl font-bold underline"> Texto massa</h1>
+    <Head></Head>
+    <Main></Main>
+    <Footer></Footer>
 </template>
 
 <style scoped>
